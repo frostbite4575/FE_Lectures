@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+form<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,9 +13,23 @@
     </header>
 
     <main>
-      <!-- Club Cards render here -->
-      <section id="club-info" class="cards"></section>
+    <form id="club_form" class="form">
+      <div class="form_row">Club Name
+        <label for="club-name">Club Name</label>
+        <input type = "text" id="club-name" placeholder="e.g., Chess Club" >
+      </div>
+      <div class="form-row">
+      <label for ="club-capacity">Max Capacity</label>
+    <input type-number id="club-capacity" placeholder="e.g., 20" min="1" ></div>
+    <button type="submit" class="btn">Add Club</button>
+    <p id="error-message" class="error" role="alert" aria-live="polite"></p>
+
+      </form>
     </main>
+  <footer>
+    <small>&copy; <span id="year"></span> Campus Club Manager</small>
+  </footer>
+
 
     <script src="app.js"></script>
   </body>
