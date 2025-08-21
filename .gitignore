@@ -1,27 +1,24 @@
+# SYSTEM / SETTINGS
 .DS_Store
 copilot instructions.md
 copilot readme instructions.md
+copilot exercises instructions.md
 
-# Lectures
-Lectures/Javascript/8_21_25_Lecture
+# JAVASCRIPT LECTURES
+# Lectures/Javascript/8_14_25_Lecture
+# Lectures/Javascript/8_18_25_Lecture
+# Lectures/Javascript/8_21_25_Lecture
 Lectures/Javascript/8_25_25_Lecture
 Lectures/Javascript/8_28_25_Lecture
-Lectures/Javascript/9_4_25_Lecture
-Lectures/Javascript/9_8_25_Lecture
+Lectures/Javascript/9_04_25_Lecture
+Lectures/Javascript/9_08_25_Lecture
 Lectures/Javascript/9_11_25_Lecture
 Lectures/Javascript/9_15_25_Lecture
 Lectures/Javascript/9_18_25_Lecture
-Lectures/Javascript/9_22_25_Lecture
-# Always ignore node_modules for the TypeScript lesson
-Lectures/9_22_25_Lecture/JavaScript/solution/
-Lectures/9_22_25_Lecture/JavaScript/solution/node_modules
 
-Lectures/Angular
-Lectures/NodeJS
-
-# JS_Mini_Project
+# JAVASCRIPT PROJECT
 # JS_Mini_Project/class_code/class_03/
-JS_Mini_Project/class_code/class_04/
+# JS_Mini_Project/class_code/class_04/
 JS_Mini_Project/class_code/class_05/
 JS_Mini_Project/class_code/class_06/
 JS_Mini_Project/class_code/class_07/
@@ -31,22 +28,49 @@ JS_Mini_Project/class_code/class_10/
 JS_Mini_Project/class_code/class_11/
 JS_Mini_Project/class_code/class_12/
 
-# Angular Portion
-Angular_FE_Project/
-Angular_FE_Project/class_13/
-Angular_FE_Project/class_14/
-Angular_FE_Project/class_15/
-Angular_FE_Project/class_16/
-Angular_FE_Project/class_17/
-Angular_FE_Project/class_18/
-Angular_FE_Project/class_19/
-Angular_FE_Project/class_20/
-Angular_FE_Project/class_21/
-Angular_FE_Project/class_22/
-Angular_FE_Project/class_23/
-Angular_FE_Project/class_24/
+# TYPESCRIPT LECTURES
+Lectures/TypeScript/
+Lectures/Javascript/9_22_25_Lecture
+Lectures/TypeScript/9_22_25_Lecture/JavaScript/solution/
+Lectures/TypeScript/9_22_25_Lecture/JavaScript/solution/node_modules
 
-# NodeJS Portion
+# TYPESCRIPT PROJECT
+Typescript_Project/
+
+# Angular Lectures
+Lectures/Angular
+Lectures/Angular/9_25_25_Lecture/
+Lectures/Angular/9_29_25_Lecture/
+Lectures/Angular/10_02_25_Lecture/
+Lectures/Angular/10_06_25_Lecture/
+Lectures/Angular/10_09_25_Lecture/
+Lectures/Angular/10_13_25_Lecture/
+Lectures/Angular/10_16_25_Lecture/
+Lectures/Angular/10_20_25_Lecture/
+Lectures/Angular/10_23_25_Lecture/
+Lectures/Angular/10_27_25_Lecture/
+Lectures/Angular/10_30_25_Lecture/
+Lectures/Angular/11_03_25_Lecture/
+
+
+# ANGULAR PROJECT
+Angular_FE_Project/
+
+# NODEJS Lectures
+Lectures/NodeJS
+Lectures/NodeJS/11_06_25_Lecture/
+Lectures/NodeJS/11_10_25_Lecture/
+Lectures/NodeJS/11_13_25_Lecture/
+Lectures/NodeJS/11_17_25_Lecture/
+Lectures/NodeJS/11_20_25_Lecture/
+Lectures/NodeJS/11_24_25_Lecture/
+Lectures/NodeJS/12_01_25_Lecture/
+Lectures/NodeJS/12_04_25_Lecture/
+Lectures/NodeJS/12_08_25_Lecture/
+Lectures/NodeJS/12_11_25_Lecture/
+
+
+# NODEJS PROJECT
 NodeJS_Project
 NodeJS_Project/class_code/class_25/
 NodeJS_Project/class_code/class_26/
