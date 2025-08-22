@@ -1,5 +1,60 @@
-// Class 3 — Booleans, Ifs, Functions (Create Club)
-// Completed project file
+let __id = 1;
+function makeId(prefix) {
+  return `${prefix}_${__id++}`;
+}
+
+// model
+class Member {
+  constructor(name, role = "member") {
+    this.id = makeId("m");
+    this.name = name;
+    this.role = role;
+  }
+}
+
+class EventItem {
+  constructor(title,dateStr, description = "") {
+    this.id = makeId("e");
+    this.title = title;
+    this.description = description;
+    this.date = new Date(dateStr);
+    this.capacity = capacity
+    this.rsvps = new Set();
+  }
+  toggleRsvp(memberId){
+    if (this.rsvps.has(memberId)){
+      this.rsvps.delete(memberId);
+    } else if (this.rsvps.size < this.capacity){
+      this.rsvps.add(memberId);
+    }
+  }
+}
+
+class Club {
+  constructor(name, capacity = 1) {
+    this.id = makeId("c");
+    this.name = name;
+    this.capacity = capacity;
+    this.members = []; // Member[]
+    this.events = [];  // EventItem[]
+  }
+  get current() { return this.members.length; }
+  get seatsLeft() { return Math.max(0, this.capacity - this.current); }
+  get percentFull() { return this.capacity > 0 ? Math.round((this.current / this.capacity) * 100) : 0; }
+
+  addMember(name, role = "member") {
+    if (!name || typeof name !== "string") return { ok: false, reason: "invalid-name" };
+    if (this.seatsLeft <= 0)              return { ok: false, reason: "full" };
+    if (this.members.some(m => m.name.toLowerCase() === name.toLowerCase())) {
+      return { ok: false, reason: "duplicate" };
+    }
+    const m = new Member(name, role);
+    this.members.push(m);
+    return { ok: true, member: m };
+  }
+  }
+}
+
 
 // Seed data from previous class
 let clubs = [
